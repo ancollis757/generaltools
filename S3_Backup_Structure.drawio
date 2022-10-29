@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T13:02:58.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xSo8F4lAxYDqyZOqU5mg" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T13:06:24.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nZz_aiq1GyDOnVONkWmz" version="20.4.0" type="github">
   <diagram id="Vl1Z9YmDcch7eRL9wc-j" name="Page-1">
     <mxGraphModel dx="920" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n-C59awkYSz0iumEzim1-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="400" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="400" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" width="406" height="450" as="geometry" />
         </mxCell>
@@ -11,28 +23,28 @@
           <mxGeometry x="414" width="406" height="450" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-1" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="250" width="120" height="100" as="geometry" />
+          <mxGeometry x="280" y="340" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-2" value="Live Year&lt;br&gt;Photos &amp;amp; Videos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="270" width="100" height="50" as="geometry" />
+          <mxGeometry x="290" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-3" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="443.5" y="250" width="120" height="100" as="geometry" />
+          <mxGeometry x="443.5" y="340" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-4" value="Long Term&lt;br&gt;.zips of folders by year" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="453.5" y="260" width="100" height="80" as="geometry" />
+          <mxGeometry x="453.5" y="350" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="570.5" y="250" width="70" height="100" as="geometry" />
+          <mxGeometry x="570.5" y="340" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-6" value="Lifecycle rule to transition to Glacier Deep Archive after one month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640.5" y="260" width="150" height="90" as="geometry" />
+          <mxGeometry x="640.5" y="350" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="250" width="70" height="100" as="geometry" />
+          <mxGeometry x="200" y="340" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-8" value="Lifecycle rule to transition to S3 1Z-IA after one month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="250" width="150" height="90" as="geometry" />
+          <mxGeometry x="40" y="340" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-9" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Architecture Notes:&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Placing all objects in one bucket with transition to Glacier Deep Archive is unworkable due to # of items and cost per item into Glacier Deep Archive. Equally, long term items must go in Glacier Deep Archive in order to achieve desired long term storage costs. Given the volume of permanent data, only Glacier Deep Archive is workable. From this, the segregation of storage into &quot;Live Year&quot; and &quot;Long Term&quot;. This structure is duplicated, with minor differences, in the On-Premises structure.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="490" width="820" height="210" as="geometry" />
@@ -42,6 +54,18 @@
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-14" value="LONG TERM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=36;" vertex="1" parent="1">
           <mxGeometry x="420" y="10" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-19" value="CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-20" value="CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-21" value="ON-PREMISES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-22" value="ON-PREMISES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
