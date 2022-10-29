@@ -1,4 +1,4 @@
-aws s3 mv \D:\Local Folder\Local File.zip s3://super-secret-bucket-name # Upload local file to S3 Bucket.
+aws s3 mv file-in-cwd.zip s3://super-secret-bucket-name # Upload file in current working directory to S3 Bucket. NOTE: S3 CLI automatically uses multi-part upload.
 
 aws s3api put-object-tagging --bucket super-secret-bucket-name --key 03_2017.zip --tagging "{\"TagSet\": [{\"Key\": \"LongTermZip\", \"Value\": \""}]}" # Tag the uploaded file.
 
