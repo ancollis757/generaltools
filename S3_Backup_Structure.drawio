@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T14:15:57.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3BsNMTFR11azC7CjzviG" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T14:16:57.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JQllgFzK9MTX7k8lwWKX" version="20.4.0" type="github">
   <diagram id="Vl1Z9YmDcch7eRL9wc-j" name="Page-1">
     <mxGraphModel dx="920" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-42" value="&lt;br&gt;Time in standard: 30 Days then to 1Z-IA&lt;br&gt;&lt;b&gt;Applies to all objects in bucket&lt;br&gt;Objects deleted after 18 months (548 days)&lt;/b&gt; - by then, objects should have been backed up in Long Term.&lt;br&gt;Versioning in place for latest 3 versions; also transitioned.&lt;br&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&lt;b&gt;A&lt;/b&gt;CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3BTag%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3BLongTermZip%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3BstrokeWidth%3D2%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22738%22%20y%3D%22390%22%20width%3D%2280%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="8" y="310" width="162" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-43" value="LAST YEAR IN LONG TERM: 2015&lt;br&gt;LAST MONTH IN LIVE: NONE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="485" width="426" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
