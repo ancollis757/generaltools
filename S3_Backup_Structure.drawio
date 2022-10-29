@@ -1,23 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T12:50:54.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="pa2az32T1obWVg8XfgP2" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T12:54:03.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="QJvRWyAEq3yz3fMsV0QH" version="20.4.0" type="github">
   <diagram id="Vl1Z9YmDcch7eRL9wc-j" name="Page-1">
-    <mxGraphModel dx="782" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n-C59awkYSz0iumEzim1-1" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="39.99999999999999" y="80" width="120" height="100" as="geometry" />
+          <mxGeometry x="320" y="80" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-2" value="Live Year&lt;br&gt;Photos &amp;amp; Videos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="354" y="110" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-3" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="300" y="80" width="120" height="100" as="geometry" />
+          <mxGeometry x="480" y="80" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-4" value="Long Term&lt;br&gt;.zips of folders by year" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="90" width="100" height="80" as="geometry" />
+          <mxGeometry x="490" y="90" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="n-C59awkYSz0iumEzim1-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" vertex="1" parent="1">
-          <mxGeometry x="430" y="80" width="100" height="100" as="geometry" />
+          <mxGeometry x="607" y="80" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-6" value="Lifecycle rule to transition to Glacier Deep Archive after one month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="677" y="90" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n-C59awkYSz0iumEzim1-8" value="Lifecycle rule to transition to S3 1Z-IA after one month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
