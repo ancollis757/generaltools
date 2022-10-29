@@ -1,8 +1,13 @@
 aws s3 mv file-in-cwd.zip s3://super-secret-bucket-name # Upload file in current working directory to S3 Bucket. NOTE: S3 CLI automatically uses multi-part upload.
 
+aws s3 cp SOURCE_DIR s3://DEST_BUCKET/ --recursive # Upload entire folder by giving the whole directory. WILL THIS MAKE FOLDERS IN THE BUCKET? MUST THEN LATER TAG THE OBJECTS
+
 aws s3api put-object-tagging --bucket super-secret-bucket-name --key 03_2017.zip --tagging "{\"TagSet\": [{\"Key\": \"LongTermZip\", \"Value\": \""}]}" # Tag the uploaded file.
 
 aws s3api get-object-tagging --bucket your_bucket --key dog.png # Check that the tag was correctly applied.
+
+
+GET /Key+?max-parts=MaxParts&part-number-marker=PartNumberMarker&uploadId=UploadId HTTP/1.1 # Get parts uploaded of multi-part upload.
 
 
 
