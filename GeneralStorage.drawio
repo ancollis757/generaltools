@@ -1,35 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T09:29:26.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bP8kvQ-vMGl35IugsyUU" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-30T11:24:17.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jCTqEAFfsnusqP9Bj093" version="20.5.1" type="github">
   <diagram id="DMyw7KxbAbWmpW6mCUkX" name="Page-1">
-    <mxGraphModel dx="782" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-1" value="Live Year&lt;br&gt;Photos &amp;amp; Videos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="248" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-2" value="CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="18" y="250" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-3" value="Primary Computer - Hard Drive" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="98" y="90" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-4" value="Automated upload of latest month" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=10;fillColor=#fff2cc;rotation=90;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="200" y="213.63" width="182.75" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-5" value="&lt;br&gt;Time in standard: 30 Days then to 1Z-IA&lt;br&gt;&lt;b&gt;Applies to all objects in bucket&lt;br&gt;Objects deleted after 18 months (548 days)&lt;/b&gt; - by then, objects should have been backed up in Long Term.&lt;br&gt;Versioning in place for latest 3 versions; also transitioned.&lt;br&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;&lt;b&gt;A&lt;/b&gt;CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bh1%26gt%3BTag%26lt%3B%2Fh1%26gt%3B%26lt%3Bp%26gt%3BLongTermZip%26lt%3B%2Fp%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Bspacing%3D5%3BspacingTop%3D-20%3BwhiteSpace%3Dwrap%3Boverflow%3Dhidden%3Brounded%3D0%3BstrokeWidth%3D2%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22738%22%20y%3D%22390%22%20width%3D%2280%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="8" y="310" width="162" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="nXyQ3ArYVDgaGB6yJEpU-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="10" width="406" height="450" as="geometry" />
+          <mxGeometry x="8" y="10" width="522" height="450" as="geometry" />
         </mxCell>
         <mxCell id="nXyQ3ArYVDgaGB6yJEpU-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="8" y="60" width="400" height="190" as="geometry" />
+          <mxGeometry x="8" y="10" width="522" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="8" y="250" width="400" height="210" as="geometry" />
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-2" value="CLOUD" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-4" value="Automated upload of latest month" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=10;fillColor=#fff2cc;rotation=90;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-20.47" y="216.85" width="198.19" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nXyQ3ArYVDgaGB6yJEpU-9" value="ON-PREMISES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="8" y="60" width="180" height="30" as="geometry" />
+          <mxGeometry x="165.44" y="10" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-10" value="External Drive" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=24;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-11" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="13.629999999999999" y="355" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-12" value="Gen Storage Bucket - Standard" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="28.629999999999995" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-13" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="389.76" y="355" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-14" value="Gen Storage Bucket - Glacier Deep Archive" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404.76" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-15" value="S3 API CLI Upload, LongTermZIP tagged" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fontSize=10;fillColor=#fff2cc;rotation=90;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="379.76000000000005" y="216.85" width="206.21" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-17" value=".zips of files with no immediate use case" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="379.76" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-18" value="Small files of intermittent/unclear use" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-20" value="" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="204" y="216.85" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-21" value="Gen Storage Bucket - 1Z-IA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="219" y="241.85" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-22" value="Lifecyle 1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="119" y="291.85" width="100" height="36.85" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-23" value="Lifecyle 2" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="320" y="291.84999999999997" width="100" height="36.85" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-24" value="&lt;h1&gt;Lifecycle 1&lt;/h1&gt;&lt;p&gt;Time in Standard: &lt;b&gt;30 days&lt;/b&gt;&lt;/p&gt;&lt;p&gt;then move to:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;1Z-IA&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Applies to:&amp;nbsp; &lt;b&gt;all objects in bucket with tag key &quot;Generic&quot;.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Versions kept: &lt;b&gt;Latest&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="130" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-25" value="&lt;h1&gt;Bucket General&lt;/h1&gt;&lt;p&gt;Versioning Enabled&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nXyQ3ArYVDgaGB6yJEpU-26" value="&lt;h1&gt;Lifecycle 2&lt;/h1&gt;&lt;p&gt;Time in 1Z-IA: &lt;b&gt;&amp;nbsp;60 days&lt;/b&gt;&lt;/p&gt;&lt;p&gt;then move to:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Glacier Deep Archive&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Applies to:&amp;nbsp; &lt;b&gt;all objects in bucket with tag key &quot;Generic&quot; and greater than 100 MB in size.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Versions kept: &lt;b&gt;Latest&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="291.85" width="240" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
