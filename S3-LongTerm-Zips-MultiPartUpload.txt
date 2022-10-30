@@ -21,7 +21,7 @@ ADDITIONAL:
 
 # Tagging objects by S3 API (CLI)
 
-aws s3api put-object-tagging --bucket super-secret-bucket-name --key 03_2017.zip --tagging "{\"TagSet\": [{\"Key\": \"LongTermZip\", \"Value\": \""}]}" # Tag the uploaded file.
+aws s3api put-object-tagging --bucket super-secret-bucket-name --key 03_2017.zip --tagging "{\"TagSet\": [{\"Key\": \"LongTermZip\", \"Value\": \"""}]}" # Tag the uploaded file.
 
 aws s3api get-object-tagging --bucket your_bucket --key dog.png # Check that the tag was correctly applied.
 
