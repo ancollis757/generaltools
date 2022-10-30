@@ -1,14 +1,28 @@
-aws s3 mv file-in-cwd.zip s3://super-secret-bucket-name # Upload file in current working directory to S3 Bucket. NOTE: S3 CLI automatically uses multi-part upload.
+METHOD 1: S3 CLI (High Level) - FAILED; deletes part when job fails thus requiring re-creation of entire job:
 
+aws s3 mv file-in-cwd.zip s3://super-secret-bucket-name # Upload file in current working directory to S3 Bucket. NOTE: S3 CLI automatically uses multi-part upload.
 aws s3 cp SOURCE_DIR s3://DEST_BUCKET/ --recursive # Upload entire folder by giving the whole directory. WILL THIS MAKE FOLDERS IN THE BUCKET? MUST THEN LATER TAG THE OBJECTS
+
+METHOD 2: AWS S3 API (via AWS CLI) - NOT WORKABLE; Involves manual steps for each part; for files of the size I'm looking at; that's onerous (e.g. going 10x recommended part size gives 1GB per part, standard .zip is 42 GB; 42 parts):
+https://aws.amazon.com/premiumsupport/knowledge-center/s3-multipart-upload-cli/
+
+# CREATES UPLOAD JOB: Returns UploadID which must be saved as a reference for future steps.
+aws s3api create-multipart-upload --bucket DOC-EXAMPLE-BUCKET --key large_test_file 
+
+# Upload first part. Returns ETAG which must also be saved (for each part).
+aws s3api upload-part --bucket DOC-EXAMPLE-BUCKET --key large_test_file --part-number 1 --body large_test_file.001 --upload-id "exampleTUVGeKAk3Ob7qMynRKqe3ROcavPRwg92eA6JPD4ybIGRxJx9R0VbgkrnOVphZFK59KCYJAO1PXlrBSW7vcH7ANHZwTTf0ovqe6XPYHwsSp7eTRnXB1qjx40Tk --content-md5 exampleaAmjr+4sRXUwf0w=="
+
+
+METHOD 3: S3 SDK
+
+# In development
+
+ADDITIONAL:
+
+# Tagging objects by S3 API (CLI)
 
 aws s3api put-object-tagging --bucket super-secret-bucket-name --key 03_2017.zip --tagging "{\"TagSet\": [{\"Key\": \"LongTermZip\", \"Value\": \""}]}" # Tag the uploaded file.
 
 aws s3api get-object-tagging --bucket your_bucket --key dog.png # Check that the tag was correctly applied.
 
 
-GET /Key+?max-parts=MaxParts&part-number-marker=PartNumberMarker&uploadId=UploadId HTTP/1.1 # Get parts uploaded of multi-part upload.
-
-
-
-AWS CLI for S3 uses multi-part upload by default.
