@@ -1,0 +1,15 @@
+USE IN POWER SHELL - DIFFERENT IN COMMAND
+
+List files in current directory:     		ls
+
+Change directory: 		     		cd "new directory path"
+
+Clear Screen:			     		clear
+
+Access EC2 instance via public ip using .pem file:
+ssh -i .\EC2Tutorial.pem ec2-user@34.244.80.160	 
+
+Check connection by ping: 	     		ping google.com
+
+End ping:					ctrl + C
+
